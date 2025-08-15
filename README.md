@@ -60,3 +60,31 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 # timedoor-exam
+
+## Quick Start (TL;DR)
+## 1) Clone
+git clone https://github.com/aripinprtma/timedoor-exam.git <br>
+cd timedoor-exam
+
+## 2) Install deps
+composer install <br>
+npm install
+
+## 3) Environment
+cp .env.example .env <br>
+php artisan key:generate
+
+## 4) Configure DB in .env
+ DB_DATABASE=timedoor-exam <br>
+ DB_USERNAME=root <br>
+ DB_PASSWORD=
+
+## 5) Migrate + seed (small sample)
+php artisan migrate --force <br>
+php artisan db:seed
+
+## 6) Build assets
+npm run dev or: npm run build
+
+## 7) Run app
+php artisan serve
