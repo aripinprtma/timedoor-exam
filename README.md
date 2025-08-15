@@ -61,7 +61,7 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 # timedoor-exam
 
-## Quick Start (TL;DR)
+## How to install
 ## 1) Clone
 git clone https://github.com/aripinprtma/timedoor-exam.git <br>
 cd timedoor-exam
